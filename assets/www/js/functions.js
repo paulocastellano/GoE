@@ -5,8 +5,8 @@ function calculaCombustivel(){
     var resultado = valor_etanol/valor_gasolina*100;
 	
 	if(resultado > 70.00) {
-		$("#resultado").val('Gasolina');
+		$("#resultado").val('Gasoline');
 	} else {
-		$("#resultado").val('Etanol');
+		$("#resultado").val('Ethanol');
 	}
 }
